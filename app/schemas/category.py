@@ -2,15 +2,20 @@ from pydantic import BaseModel
 
 
 # Здесь описаны модели данных (schemas) с использованием Pydantic
+# Схемы используются для валидации данных, передаваемых в роутеры или возвращаемых из них
 
 
-class Category(BaseModel):
-    id: int
+class CategoryBase(BaseModel):
     name: str
+    slug: str
+
+
+class CategoryCreate(CategoryBase):
+    pass  # id генерируется автоматически, базовые поля наследуются
+
+
+class Category(CategoryBase):
+    id: int # наследует базовые поля и содержит дополнительные: id
 
     class Config:
-        from_attributes = True  # Позволяет преобразовывать данные из объектов базы данных
-
-
-class CategoryCreate(BaseModel):
-    name: str  # id генерируется автоматически
+        from_attributes = True  # Позволяет преобразовывать данные из объектов базы данных и возвращать модели JSON
