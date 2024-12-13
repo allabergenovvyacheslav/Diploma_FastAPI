@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b95897bc-2269-4abe-a8e5-eb6e2c126627" name="Changes" comment="09.12.2024">
-      <change afterPath="$PROJECT_DIR$/app/backend/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/backend/db_depends.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/products.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/category.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/schemas/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/products.py" afterDir="false" />
-    </list>
+    <list default="true" id="b95897bc-2269-4abe-a8e5-eb6e2c126627" name="Changes" comment="13.12.2024" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -122,11 +111,20 @@
       <option name="project" value="LOCAL" />
       <updated>1734021789868</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="13.12.2024">
+      <option name="closed" value="true" />
+      <created>1734099466189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734099466189</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="09.12.2024" />
-    <option name="LAST_COMMIT_MESSAGE" value="09.12.2024" />
+    <MESSAGE value="13.12.2024" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.12.2024" />
   </component>
 </project>
