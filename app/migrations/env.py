@@ -19,12 +19,11 @@ if config.config_file_name is not None:
 # from myapp import mymodel
 # target_metadata = mymodel.Base.metadata
 from app.backend.db import Base
+
 from app.models.products import Product
 from app.models.category import Category
 
 target_metadata = Base.metadata
-# создать миграцию командой: alembic revision --autogenerate -m "Initial migration"
-# после, примените миграцию: alembic upgrade head
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:

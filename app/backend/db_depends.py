@@ -5,7 +5,8 @@ from fastapi import Depends
 from app.backend.db import Session
 
 
-def get_db(): # get_db используется как зависимость в маршрутах, для получения доступа к базе данных
+# get_db используется как зависимость в маршрутах, для получения доступа к базе данных
+def get_db():
     db = Session()
     try:
         yield db

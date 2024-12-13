@@ -6,11 +6,11 @@ from typing import Annotated
 from app.schemas.category import Category, CategoryCreate
 from app.backend.db_depends import get_db
 
-# Annotated для аннотирования зависимостей FastAPI, таких как база данных
-DbSession = Annotated[Session, Depends(get_db)]
-
 # Маршруты для категорий
 router = APIRouter(prefix='/categories', tags=['Categories'], )
+
+# Annotated для аннотирования зависимостей FastAPI, таких как база данных
+DbSession = Annotated[Session, Depends(get_db)]
 
 
 @router.get('/', response_model=list[Category])
@@ -28,7 +28,7 @@ async def create_category(category: CategoryCreate, db: DbSession):
     """Создать новую категорию"""
 
     # INSERT INTO categories добавляет новую запись в таблицу
-    query = text('SELECT * FROM categories (name, slug) VALUES (:name, :slug)')
+    query = text('INSERT INTO categories (name, slug) VALUES (:name, :slug)')
     db.execute(query, {'name': category.name, 'slug': category.slug})
     db.commit()
 
