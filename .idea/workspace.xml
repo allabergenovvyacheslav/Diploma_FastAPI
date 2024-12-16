@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b95897bc-2269-4abe-a8e5-eb6e2c126627" name="Changes" comment="13.12.2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alembic.ini" beforeDir="false" afterPath="$PROJECT_DIR$/alembic.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/backend/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/backend/db.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/backend/db_depends.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/backend/db_depends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/migrations/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/migrations/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/schemas/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/schemas/products.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shop.db" beforeDir="false" afterPath="$PROJECT_DIR$/shop.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734102080870</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="13.12.2024">
+      <option name="closed" value="true" />
+      <created>1734108167975</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734108167976</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

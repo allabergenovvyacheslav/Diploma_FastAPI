@@ -15,7 +15,7 @@ class CategoryCreate(CategoryBase):
 
 
 class Category(CategoryBase):
-    id: int # наследует базовые поля и содержит дополнительные: id
+    id: int  # наследует базовые поля и содержит дополнительные: id
 
     class Config:
-        from_attributes = True  # Позволяет преобразовывать данные из объектов базы данных и возвращать модели JSON
+        from_attributes = True  # Позволяет работать с данными ORM

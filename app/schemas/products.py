@@ -1,4 +1,4 @@
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict
 
 
 # Здесь описаны модели данных (schemas) с использованием Pydantic
@@ -22,4 +22,4 @@ class Product(ProductBase):
     id: int # наследует базовые поля и содержит дополнительные поля: id
 
     class Config:
-        from_attributes = True  # Позволяет преобразовывать данные из объектов базы данных и возвращать модели JSON
+        from_attributes = True  # Позволяет работать с данными ORM

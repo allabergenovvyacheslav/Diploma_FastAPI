@@ -9,7 +9,7 @@ DATABASE_URL = 'sqlite:///./shop_db' # Путь к базе данных SQLite
 engine = create_engine(DATABASE_URL, connect_args={'check_same_thread': False})
 
 # сессии для работы с БД, autoflush запись изменений в БД, bind привязка к движку, autocommit автозакрытие транзакции
-Session = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Base базовый класс для всех моделей (наследодатель)
 Base = declarative_base()
