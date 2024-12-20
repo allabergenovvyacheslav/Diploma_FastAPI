@@ -40,7 +40,7 @@ async def create_product(product: ProductCreate, db: DbSession):
 
     # INSERT INTO products, который добавляет новый продукт
     query = text('INSERT INTO products (name, descriptions, cost, quantity, slug, category_id)'
-                 'VALUES (:name, :descriptions, :cost, :quantity, :slug, :category_id')
+                 'VALUES (:name, :descriptions, :cost, :quantity, :slug, :category_id)')
     db.execute(query,
                {'name': product.name,
                 'descriptions': product.descriptions,
