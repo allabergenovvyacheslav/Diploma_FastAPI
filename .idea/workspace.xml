@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b95897bc-2269-4abe-a8e5-eb6e2c126627" name="Changes" comment="16.12.2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/routers/products.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/routers/products.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop.db" beforeDir="false" afterPath="$PROJECT_DIR$/shop.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shop_db" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734703489041</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="16.12.2024">
+      <option name="closed" value="true" />
+      <created>1734704075939</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1734704075940</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
