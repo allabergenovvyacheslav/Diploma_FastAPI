@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 
-DATABASE_URL = 'sqlite:///./shop_db' # Путь к базе данных SQLite
+DATABASE_URL = 'sqlite:///./shop.db' # Путь к базе данных SQLite
 
 # движок для подключения к базе данных. check_same_thread = False проверка_одного_потока
 engine = create_engine(DATABASE_URL, connect_args={'check_same_thread': False})
